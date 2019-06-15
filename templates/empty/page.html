@@ -1,0 +1,10 @@
+{% load i18n %}
+
+{% language 'en-us' %}
+    <body>
+        <h1>{% trans 'Please do not waste my time' %}</h1>
+        <h1>{% trans 'What the fuck is going on' %}</h1>
+    </body>
+    {% get_current_language as LANGUAGE_CODE %}
+ {{ LANGUAGE_CODE }}
+{% endlanguage %}
